@@ -115,10 +115,6 @@ const krypt0wl = {
 
 </div>
 
-## 🤝 Vamos criar algo juntos?
-
-Tem uma ideia, uma vaga ou um projeto em que eu posso ajudar? Me chama no **[LinkedIn](https://www.linkedin.com/in/rodrigo-caetano-391648239/)** ou por **[e-mail](mailto:caetanorodrigo46@gmail.com)**.
-
 <div align="center">
 <br />
 <sub>🦉 Enquanto o mundo dorme, o código compila.</sub>
