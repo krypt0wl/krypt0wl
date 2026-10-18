@@ -23,7 +23,6 @@ const krypt0wl = {
 ```
 
 - 🔭 Construo apps **web e mobile de ponta a ponta**: API, banco de dados, app no celular e deploy.
-- 🧠 Uso **IA como ferramenta de produto**: saída validada por schema, custo medido por chamada e código fazendo as contas.
 - 🌱 Sempre estudando e transformando o que aprendo em projetos de verdade.
 
 ## ⭐ Em destaque: Bolso
