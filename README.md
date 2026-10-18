@@ -1,10 +1,10 @@
 <div align="center">
 
-<img src="./assets/header.svg" width="100%" alt="krypt0wl: Rodrigo Caetano, desenvolvedor full stack" />
+<img src="./assets/header.svg" width="100%" alt="krypt0wl: desenvolvedor full stack" />
 
 <br />
 
-<a href="https://www.linkedin.com/in/rodrigo-caetano-391648239/"><img src="https://img.shields.io/badge/LinkedIn-Rodrigo%20Caetano-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+<a href="https://www.linkedin.com/in/rodrigo-caetano-391648239/"><img src="https://img.shields.io/badge/LinkedIn-Conectar-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
 <a href="mailto:caetanorodrigo46@gmail.com"><img src="https://img.shields.io/badge/E--mail-Fale%20comigo-0D1220?style=for-the-badge&logo=gmail&logoColor=34D399" alt="E-mail" /></a>
 <a href="https://github.com/krypt0wl/bolso"><img src="https://img.shields.io/badge/Projeto%20atual-Bolso-34D399?style=for-the-badge&logo=github&logoColor=0D1220" alt="Projeto atual: Bolso" /></a>
 
@@ -14,7 +14,6 @@
 
 ```js
 const krypt0wl = {
-  nome: "Rodrigo Caetano",
   papel: "Desenvolvedor full stack",
   stack: ["Node.js", "Express", "Prisma", "React Native", "Expo"],
   gostoDe: "IA que resolve problema de verdade, e custa pouco",

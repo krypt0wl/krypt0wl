@@ -1,12 +1,12 @@
 <svg width="1200" height="320" viewBox="0 0 1200 320" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="titulo descricao">
-  <title id="titulo">krypt0wl — Rodrigo Caetano, desenvolvedor full stack</title>
-  <desc id="descricao">Banner escuro com uma coruja geométrica que pisca, o apelido krypt0wl e uma linha de terminal.</desc>
+  <title id="titulo">krypt0wl — desenvolvedor full stack</title>
+  <desc id="descricao">Banner escuro com uma coruja geométrica que pisca, o apelido krypt0wl e uma linha de terminal: while (noite) { codar(); }.</desc>
   <style>
     .mono { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, "Liberation Mono", monospace; }
     .sans { font-family: -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; }
     .olho { transform-box: fill-box; transform-origin: center; animation: piscar 5s infinite; }
     .cursor { animation: cursor 1s steps(1) infinite; }
-    .digitar { clip-path: inset(0 100% 0 0); animation: digitar 3.2s steps(34) 0.4s forwards; }
+    .digitar { clip-path: inset(0 100% 0 0); animation: digitar 3.2s steps(28) 0.4s forwards; }
     .estrela { animation: brilho 3s ease-in-out infinite; }
     .estrela:nth-of-type(2n) { animation-delay: 1.2s; }
     .estrela:nth-of-type(3n) { animation-delay: 2.1s; }
@@ -73,14 +73,14 @@
 
   <!-- Texto -->
   <text class="mono" x="400" y="138" font-size="84" font-weight="700" fill="url(#destaque)" letter-spacing="-1">krypt0wl</text>
-  <text class="sans" x="404" y="184" font-size="28" font-weight="600" fill="#E2E8F0">Rodrigo Caetano · Desenvolvedor Full Stack</text>
+  <text class="sans" x="404" y="184" font-size="28" font-weight="600" fill="#E2E8F0">Desenvolvedor Full Stack</text>
 
   <g transform="translate(404 214)">
-    <rect width="540" height="52" rx="12" fill="#0B1220" stroke="#1F2A3A"/>
+    <rect width="460" height="52" rx="12" fill="#0B1220" stroke="#1F2A3A"/>
     <circle cx="22" cy="26" r="5" fill="#F87171"/>
     <circle cx="40" cy="26" r="5" fill="#FBBF24"/>
     <circle cx="58" cy="26" r="5" fill="#34D399"/>
-    <text class="mono digitar" x="84" y="33" font-size="20" fill="#CBD5E1"><tspan fill="#34D399">$</tspan> node · react-native · prisma · ia</text>
-    <rect class="cursor" x="508" y="15" width="11" height="22" rx="2" fill="#34D399"/>
+    <text class="mono digitar" x="84" y="33" font-size="20" fill="#CBD5E1"><tspan fill="#34D399">$</tspan> while (noite) { codar(); }</text>
+    <rect class="cursor" x="428" y="15" width="11" height="22" rx="2" fill="#34D399"/>
   </g>
 </svg>
