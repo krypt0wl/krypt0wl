@@ -1,0 +1,86 @@
+<svg width="1200" height="320" viewBox="0 0 1200 320" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="titulo descricao">
+  <title id="titulo">krypt0wl — Rodrigo Caetano, desenvolvedor full stack</title>
+  <desc id="descricao">Banner escuro com uma coruja geométrica que pisca, o apelido krypt0wl e uma linha de terminal.</desc>
+  <style>
+    .mono { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, "Liberation Mono", monospace; }
+    .sans { font-family: -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; }
+    .olho { transform-box: fill-box; transform-origin: center; animation: piscar 5s infinite; }
+    .cursor { animation: cursor 1s steps(1) infinite; }
+    .digitar { clip-path: inset(0 100% 0 0); animation: digitar 3.2s steps(34) 0.4s forwards; }
+    .estrela { animation: brilho 3s ease-in-out infinite; }
+    .estrela:nth-of-type(2n) { animation-delay: 1.2s; }
+    .estrela:nth-of-type(3n) { animation-delay: 2.1s; }
+    @keyframes piscar { 0%, 92%, 100% { transform: scaleY(1); } 95% { transform: scaleY(0.08); } }
+    @keyframes cursor { 0%, 50% { opacity: 1; } 51%, 100% { opacity: 0; } }
+    @keyframes digitar { to { clip-path: inset(0 0 0 0); } }
+    @keyframes brilho { 0%, 100% { opacity: 0.25; } 50% { opacity: 0.9; } }
+  </style>
+  <defs>
+    <linearGradient id="fundo" x1="0" y1="0" x2="1200" y2="320" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#07090F"/>
+      <stop offset="0.55" stop-color="#0D1220"/>
+      <stop offset="1" stop-color="#081A17"/>
+    </linearGradient>
+    <linearGradient id="destaque" x1="420" y1="90" x2="980" y2="170" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#34D399"/>
+      <stop offset="1" stop-color="#22D3EE"/>
+    </linearGradient>
+    <radialGradient id="lua" cx="0" cy="0" r="1" gradientTransform="translate(205 160) scale(190)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#34D399" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#34D399" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="iris" cx="0.5" cy="0.5" r="0.5">
+      <stop stop-color="#FDE68A"/>
+      <stop offset="0.7" stop-color="#F59E0B"/>
+      <stop offset="1" stop-color="#B45309"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="1200" height="320" rx="24" fill="url(#fundo)"/>
+  <rect x="0.5" y="0.5" width="1199" height="319" rx="23.5" stroke="#1F2A3A"/>
+  <circle cx="205" cy="160" r="190" fill="url(#lua)"/>
+
+  <g fill="#E2E8F0">
+    <circle class="estrela" cx="420" cy="48" r="1.6"/>
+    <circle class="estrela" cx="610" cy="34" r="1.2"/>
+    <circle class="estrela" cx="1040" cy="58" r="1.8"/>
+    <circle class="estrela" cx="1130" cy="140" r="1.2"/>
+    <circle class="estrela" cx="980" cy="270" r="1.5"/>
+    <circle class="estrela" cx="760" cy="286" r="1.1"/>
+    <circle class="estrela" cx="88" cy="270" r="1.4"/>
+    <circle class="estrela" cx="330" cy="290" r="1.2"/>
+  </g>
+
+  <!-- Coruja -->
+  <g transform="translate(110 62)">
+    <path d="M28 40 L10 0 L62 26 Z" fill="#1E293B"/>
+    <path d="M162 40 L180 0 L128 26 Z" fill="#1E293B"/>
+    <rect x="14" y="22" width="162" height="170" rx="78" fill="#1E293B" stroke="#334155" stroke-width="2"/>
+    <path d="M95 112 C70 120 52 150 56 192 L134 192 C138 150 120 120 95 112 Z" fill="#0F172A" opacity="0.7"/>
+    <circle cx="62" cy="86" r="38" fill="#0B1220" stroke="url(#destaque)" stroke-width="3"/>
+    <circle cx="128" cy="86" r="38" fill="#0B1220" stroke="url(#destaque)" stroke-width="3"/>
+    <g class="olho">
+      <circle cx="62" cy="86" r="22" fill="url(#iris)"/>
+      <circle cx="128" cy="86" r="22" fill="url(#iris)"/>
+      <circle cx="62" cy="86" r="10" fill="#0B0F19"/>
+      <circle cx="128" cy="86" r="10" fill="#0B0F19"/>
+      <circle cx="67" cy="80" r="3.5" fill="#FFFFFF"/>
+      <circle cx="133" cy="80" r="3.5" fill="#FFFFFF"/>
+    </g>
+    <path d="M95 104 L85 118 L95 132 L105 118 Z" fill="#F59E0B"/>
+    <text class="mono" x="95" y="176" text-anchor="middle" font-size="15" fill="#34D399" opacity="0.85">0 1 0 1</text>
+  </g>
+
+  <!-- Texto -->
+  <text class="mono" x="400" y="138" font-size="84" font-weight="700" fill="url(#destaque)" letter-spacing="-1">krypt0wl</text>
+  <text class="sans" x="404" y="184" font-size="28" font-weight="600" fill="#E2E8F0">Rodrigo Caetano · Desenvolvedor Full Stack</text>
+
+  <g transform="translate(404 214)">
+    <rect width="540" height="52" rx="12" fill="#0B1220" stroke="#1F2A3A"/>
+    <circle cx="22" cy="26" r="5" fill="#F87171"/>
+    <circle cx="40" cy="26" r="5" fill="#FBBF24"/>
+    <circle cx="58" cy="26" r="5" fill="#34D399"/>
+    <text class="mono digitar" x="84" y="33" font-size="20" fill="#CBD5E1"><tspan fill="#34D399">$</tspan> node · react-native · prisma · ia</text>
+    <rect class="cursor" x="508" y="15" width="11" height="22" rx="2" fill="#34D399"/>
+  </g>
+</svg>
