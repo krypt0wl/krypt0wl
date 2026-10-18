@@ -24,7 +24,7 @@ const krypt0wl = {
 
 - 🔭 Construo apps **web e mobile de ponta a ponta**: API, banco de dados, app no celular e deploy.
 - 🧠 Uso **IA como ferramenta de produto**: saída validada por schema, custo medido por chamada e código fazendo as contas.
-- 🌱 Sempre estudando: os projetos do SENAI e da faculdade estão aqui embaixo, junto com o que construo por conta própria.
+- 🌱 Sempre estudando e transformando o que aprendo em projetos de verdade.
 
 ## ⭐ Em destaque: Bolso
 
@@ -68,16 +68,6 @@ const krypt0wl = {
   </tr>
 </table>
 
-## 🗂️ Outros projetos
-
-| Projeto | O que é | Stack |
-|---|---|---|
-| 🎮 **[ClassQuest](https://github.com/krypt0wl/ClassQuest)** | Sala de aula gamificada: alunos cumprem atividades, ganham pontos e trocam por prêmios; professores criam tarefas e acompanham a turma. Tem API, site e app. | Node · Express · Prisma · MySQL · JWT · React Native |
-| 🚚 **[AgroTech](https://github.com/krypt0wl/AgroTech)** | Gestão de frota: veículos, motoristas, viagens e manutenções, com app mobile e API publicada na nuvem. | Node · Express · Prisma · MySQL · React Native · Railway |
-| 🛠️ **[TechMan](https://github.com/krypt0wl/TechMan)** | Controle de equipamentos com login por perfil (administrador, gerente, técnico) e comentários em cada equipamento. | Node · Express · Pug · Prisma · Railway |
-| 📚 **[SENAI](https://github.com/krypt0wl/SENAI)** | Projetos e exercícios do curso: banco de dados, back-end, front-end e mobile. | JavaScript · SQL · Prisma · MongoDB |
-| 🎓 **[UniFAJ](https://github.com/krypt0wl/UniFAJ)** | Trabalhos da faculdade: algoritmos, banco de dados e engenharia de software. | Python · C/C++ · Java · UML |
-
 ## 🛠️ Tecnologias
 
 **Linguagens**<br />
@@ -107,7 +97,6 @@ const krypt0wl = {
 <img src="https://img.shields.io/badge/Supabase-3FCF8E?style=for-the-badge&logo=supabase&logoColor=white" alt="Supabase" />
 <img src="https://img.shields.io/badge/Render-46E3B7?style=for-the-badge&logo=render&logoColor=black" alt="Render" />
 <img src="https://img.shields.io/badge/Railway-0B0D0E?style=for-the-badge&logo=railway&logoColor=white" alt="Railway" />
-<a href="https://www.cloudskillsboost.google/public_profiles/42184fe0-2835-485a-8e89-49e619052f79"><img src="https://img.shields.io/badge/Google%20Cloud-4285F4?style=for-the-badge&logo=googlecloud&logoColor=white" alt="Perfil no Google Cloud Skills Boost" /></a>
 <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git" />
 <img src="https://img.shields.io/badge/Insomnia-4000BF?style=for-the-badge&logo=insomnia&logoColor=white" alt="Insomnia" />
 
@@ -132,5 +121,5 @@ Tem uma ideia, uma vaga ou um projeto em que eu posso ajudar? Me chama no **[Lin
 
 <div align="center">
 <br />
-<sub>🦉 Coruja por natureza: curioso de dia, programando de madrugada.</sub>
+<sub>🦉 Enquanto o mundo dorme, o código compila.</sub>
 </div>
