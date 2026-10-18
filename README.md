@@ -22,48 +22,6 @@ const krypt0wl = {
 - 🔭 Construo apps **web e mobile de ponta a ponta**: API, banco de dados, app no celular e deploy.
 - 🌱 Sempre estudando e transformando o que aprendo em projetos de verdade.
 
-## ⭐ Em destaque: Bolso
-
-<table>
-  <tr>
-    <td width="58%" valign="top">
-
-**Controle de gastos pessoais em que a IA faz o trabalho chato.** Tire foto do cupom, aponte a câmera para o QR Code da nota, envie a fatura em PDF ou o extrato do banco, ou só digite *"gastei 35 no uber ontem"*. O Bolso lê, categoriza e monta o painel do mês.
-
-- 🧾 Lê **cupom, fatura, extrato (CSV/OFX), Pix e boletos** com a API do Claude
-- 📷 **QR Code da NFC-e**: itens direto da SEFAZ, quase sem gastar IA
-- 💬 **Pergunte ao Bolso**: *"quanto gastei com Uber desde agosto?"*
-- 🔔 Alertas de **cobrança em dobro** e de **assinatura que aumentou**
-- 📈 **Inflação pessoal** e o mercado mais barato para cada produto
-- 🔁 Mesmo gasto no cupom e na fatura conta **uma vez só**
-- 💸 Cada chamada à IA tem o **custo registrado** e aparece no app
-
-<br />
-
-<img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white" alt="Node.js" />
-<img src="https://img.shields.io/badge/Express-000000?style=flat-square&logo=express&logoColor=white" alt="Express" />
-<img src="https://img.shields.io/badge/Prisma-2D3748?style=flat-square&logo=prisma&logoColor=white" alt="Prisma" />
-<img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white" alt="PostgreSQL" />
-<img src="https://img.shields.io/badge/Supabase-3FCF8E?style=flat-square&logo=supabase&logoColor=white" alt="Supabase" />
-<img src="https://img.shields.io/badge/Expo-000020?style=flat-square&logo=expo&logoColor=white" alt="Expo" />
-<img src="https://img.shields.io/badge/React%20Native-20232A?style=flat-square&logo=react&logoColor=61DAFB" alt="React Native" />
-<img src="https://img.shields.io/badge/Claude%20API-D97757?style=flat-square&logo=anthropic&logoColor=white" alt="Claude API" />
-<img src="https://img.shields.io/badge/Render-46E3B7?style=flat-square&logo=render&logoColor=0D1220" alt="Render" />
-
-<br /><br />
-
-👉 **[Ver o repositório](https://github.com/krypt0wl/bolso)**
-
-  </td>
-    <td width="42%" align="center" valign="top">
-      <img src="./assets/bolso/alertas.png" width="49%" alt="Painel do Bolso com alerta de cobrança em dobro e de assinatura que aumentou" />
-      <img src="./assets/bolso/chat.png" width="49%" alt="Chat Pergunte ao Bolso respondendo onde a pessoa mais gastou no mês" />
-      <img src="./assets/bolso/precos.png" width="49%" alt="Histórico de preço do café com gráfico e mercado mais barato" />
-      <img src="./assets/bolso/adicionar.png" width="49%" alt="Tela de adicionar gasto por texto, QR Code, foto ou arquivo" />
-    </td>
-  </tr>
-</table>
-
 ## 🛠️ Tecnologias
 
 **Linguagens**<br />
