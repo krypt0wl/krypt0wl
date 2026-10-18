@@ -16,8 +16,6 @@
 const krypt0wl = {
   papel: "Desenvolvedor full stack",
   stack: ["Node.js", "Express", "Prisma", "React Native", "Expo"],
-  gostoDe: "IA que resolve problema de verdade, e custa pouco",
-  construindoAgora: "Bolso, um controle de gastos que lê cupom, fatura e extrato com IA",
   horarioFavorito: "madrugada 🌙",
 };
 ```
