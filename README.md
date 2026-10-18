@@ -15,8 +15,7 @@
 ```js
 const krypt0wl = {
   papel: "Desenvolvedor full stack",
-  stack: ["Node.js", "Express", "Prisma", "React Native", "Expo"],
-  horarioFavorito: "madrugada 🌙",
+  horarioFavorito: "madrugada 🌙"
 };
 ```
 
